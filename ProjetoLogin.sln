@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apresentação", "Apresentação", "{7AF55C85-43F5-4105-B445-FBE2425296C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Negocio", "Negocio", "{482C73C7-C246-4DD9-B4C5-BA1EDCE68775}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dados", "Dados", "{B7DBADEF-7A45-42A3-9E95-E3BE4728521D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTO", "DTO", "{2C5A74BF-07EA-4D24-BBBB-29A70FEC7D8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dados", "Dados\Dados.csproj", "{8FAF82A9-F7F4-4C1C-9FCC-1CF2F1A3A773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login.DTO", "Login.DTO\Login.DTO.csproj", "{106A8892-A957-418E-80FB-B9FE7592A6A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FAF82A9-F7F4-4C1C-9FCC-1CF2F1A3A773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAF82A9-F7F4-4C1C-9FCC-1CF2F1A3A773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAF82A9-F7F4-4C1C-9FCC-1CF2F1A3A773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAF82A9-F7F4-4C1C-9FCC-1CF2F1A3A773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{106A8892-A957-418E-80FB-B9FE7592A6A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{106A8892-A957-418E-80FB-B9FE7592A6A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{106A8892-A957-418E-80FB-B9FE7592A6A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{106A8892-A957-418E-80FB-B9FE7592A6A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8FAF82A9-F7F4-4C1C-9FCC-1CF2F1A3A773} = {B7DBADEF-7A45-42A3-9E95-E3BE4728521D}
+		{106A8892-A957-418E-80FB-B9FE7592A6A5} = {2C5A74BF-07EA-4D24-BBBB-29A70FEC7D8A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8D692CE-34D0-430F-8C81-A9D41BF1CE82}
+	EndGlobalSection
+EndGlobal
